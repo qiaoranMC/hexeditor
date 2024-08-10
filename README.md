@@ -1,20 +1,20 @@
-Ò»¸öÊ¹ÓÃcÓïÑÔÖÆ×÷µÄ¿ØÖÆÌ¨°æÊ®Áù½øÖÆ±à¼­Æ÷£¬ÓµÓĞÍ¼ÁéÍê±¸µÄºê¹¦ÄÜ/A use c language build hexeditor, script mode Toling full support
-ÀúÊ±Á½ÖÜ´òÔì£¬ÓµÓĞ×Å½ÏÎª³öÉ«µÄ¹¦ÄÜ/Use 14 day time make, have very good the mode
-ÏÂÃæÊÇÊ¹ÓÃ·½·¨£º/Down is usage:
-ÔËĞĞ³ÌĞò/Run program
-ÊäÈëÂ·¾¶/ÎÄ¼şÃû³Æ£¬°´ÏÂ»»ĞĞ
+ä¸€ä¸ªä½¿ç”¨cè¯­è¨€åˆ¶ä½œçš„æ§åˆ¶å°ç‰ˆåå…­è¿›åˆ¶ç¼–è¾‘å™¨ï¼Œæ‹¥æœ‰å›¾çµå®Œå¤‡çš„å®åŠŸèƒ½/A use c language build hexeditor, script mode Toling full support
+å†æ—¶ä¸¤å‘¨æ‰“é€ ï¼Œæ‹¥æœ‰ç€è¾ƒä¸ºå‡ºè‰²çš„åŠŸèƒ½/Use 14 day time make, have very good the mode
+ä¸‹é¢æ˜¯ä½¿ç”¨æ–¹æ³•ï¼š/Down is usage:
+è¿è¡Œç¨‹åº/Run program
+è¾“å…¥è·¯å¾„/æ–‡ä»¶åç§°ï¼ŒæŒ‰ä¸‹æ¢è¡Œ
 Enter path/file name, press enter
-Äã»á¿´µ½ÒÔÏÂ½çÃæ/You will see this interface
+ä½ ä¼šçœ‹åˆ°ä»¥ä¸‹ç•Œé¢/You will see this interface
 0 _0__1__2__3__4__5__6__7__8__9__a__b__c__d__e__f_   0-f
    0|2d 31 20 31 20 66 66 20 31 20 30 20 30 20 30 20    0>>>
-¿ÉÒÔÊ¹ÓÃÒÔÏÂÃüÁî±à¼­Ê®Áù½øÖÆÎÄ¼ş/can use down command edit hex file
--1£ºĞŞ¸ÄÖ¸¶¨µÄÊı×éÔªËØÖµ£¬¿ÉÓÃÓÚĞŞ¸ÄÒÔÏÂÄÚÈİ/-1:edit local sub class value, can use the mode edit for
- -1 0 £¨Öµ£©£ºĞŞ¸Ä¹â±êÎ»ÖÃ£¬¿ÉÓÃÓÚÌø×ªÖ¸¶¨µØÖ·/-1 0 (value):edit lock address, can use the command goto to you hope address value
- -1 a £¨Öµ£©£ºĞŞ¸Ä¿ªÊ¼´òÓ¡µØÖ·µÄÎ»ÖÃ/-1 a (value):edit start print address the value
- -1 b £¨Öµ£©£ºĞŞ¸Ä½áÊø´òÓ¡µØÖ·µÄÎ»ÖÃ/-1 b (value):edit end print address the value
- -1 c £¨Öµ£©£ºÑ¡ÔñÏÔÊ¾¸ñÊ½£¬±à¼­Îª0ÏÔÊ¾³ÉÊ®Áù½øÖÆ£¬±à¼­Îª1ÏÔÊ¾³ÉÊ®½øÖÆ/-1 c (value):select show format, edit for zero show hex, edit for 1 show dec
- -1 d £¨Öµ£©£ºÊÇ·ñÏÔÊ¾ascii×Ö·ûÔÚÓÒ²à£¬±à¼­Îª0±íÊ¾²»ÓÃ£¬±à¼­Îª1±íÊ¾ÊÇµÄ/-1 d (value):Enable show ascii word, edit for 0 no show, edit for 1 show
--2£ºÊ¹ÓÃºêÄ£Ê½£¬Ä¬ÈÏ°æ±¾Îªhexeditor_mod.h£¬±à¼­µ¼ÈëÍ·ÎÄ¼şÃû³ÆÒÔÇĞ»»Îªhexeditor_mod_v1.h/-2:use script mode, default version for hexeditor_mod.h, edit import head file name to select hexeditor_v1.h
-¾ßÌåÓÃ·¨¼ûinclude/README.md
+å¯ä»¥ä½¿ç”¨ä»¥ä¸‹å‘½ä»¤ç¼–è¾‘åå…­è¿›åˆ¶æ–‡ä»¶/can use down command edit hex file
+-1ï¼šä¿®æ”¹æŒ‡å®šçš„æ•°ç»„å…ƒç´ å€¼ï¼Œå¯ç”¨äºä¿®æ”¹ä»¥ä¸‹å†…å®¹/-1:edit local sub class value, can use the mode edit for
+ -1 0 ï¼ˆå€¼ï¼‰ï¼šä¿®æ”¹å…‰æ ‡ä½ç½®ï¼Œå¯ç”¨äºè·³è½¬æŒ‡å®šåœ°å€/-1 0 (value):edit lock address, can use the command goto to you hope address value
+ -1 a ï¼ˆå€¼ï¼‰ï¼šä¿®æ”¹å¼€å§‹æ‰“å°åœ°å€çš„ä½ç½®/-1 a (value):edit start print address the value
+ -1 b ï¼ˆå€¼ï¼‰ï¼šä¿®æ”¹ç»“æŸæ‰“å°åœ°å€çš„ä½ç½®/-1 b (value):edit end print address the value
+ -1 c ï¼ˆå€¼ï¼‰ï¼šé€‰æ‹©æ˜¾ç¤ºæ ¼å¼ï¼Œç¼–è¾‘ä¸º0æ˜¾ç¤ºæˆåå…­è¿›åˆ¶ï¼Œç¼–è¾‘ä¸º1æ˜¾ç¤ºæˆåè¿›åˆ¶/-1 c (value):select show format, edit for zero show hex, edit for 1 show dec
+ -1 d ï¼ˆå€¼ï¼‰ï¼šæ˜¯å¦æ˜¾ç¤ºasciiå­—ç¬¦åœ¨å³ä¾§ï¼Œç¼–è¾‘ä¸º0è¡¨ç¤ºä¸ç”¨ï¼Œç¼–è¾‘ä¸º1è¡¨ç¤ºæ˜¯çš„/-1 d (value):Enable show ascii word, edit for 0 no show, edit for 1 show
+-2ï¼šä½¿ç”¨å®æ¨¡å¼ï¼Œé»˜è®¤ç‰ˆæœ¬ä¸ºhexeditor_mod.hï¼Œç¼–è¾‘å¯¼å…¥å¤´æ–‡ä»¶åç§°ä»¥åˆ‡æ¢ä¸ºhexeditor_mod_v1.h/-2:use script mode, default version for hexeditor_mod.h, edit import head file name to select hexeditor_v1.h
+å…·ä½“ç”¨æ³•è§include/README.md
 How to use see with include/README.md
--3£º±£´æÎÄ¼ş/-3:save file
+-3ï¼šä¿å­˜æ–‡ä»¶/-3:save file
